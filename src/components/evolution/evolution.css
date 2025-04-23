@@ -1,0 +1,55 @@
+.evolution__container {
+    width: 1840px;
+    height: 910px;
+    border-radius: 60px;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.logo__evolution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 140px;
+    gap: 10px;
+    margin-right: 120px;
+
+}
+
+.evolution__logo__text {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    color: #2B2E3E;
+}
+
+.span__text__evolution {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 1.5;
+    color:  #009BFF;
+    letter-spacing: -2%;
+}
+
+.text__evolution {
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #2B2E3E;
+}
+
+.content__evolution {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 60px;
+    margin-right: 110px;
+}

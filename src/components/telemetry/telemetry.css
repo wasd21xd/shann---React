@@ -1,0 +1,56 @@
+.telemetry__container {
+    display: flex;
+    width: 1840px;
+    height: 910px;
+    border-radius: 60px;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.img__telemetry{
+    position: relative;
+   left: 229px;
+    top: 220px;
+    z-index: 2;
+}
+
+.circle__telemetry{
+    position: relative;
+    bottom: 380px;
+    left: 20px;
+    width: 475px;
+    height: 475px;
+    background: rgba(234, 239, 249, 1);
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.text__telemetry {
+    width: 910px;
+}
+
+.logo__telemetry{
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    color: rgba(43, 46, 62, 1);
+
+}
+
+.span__text__telemetry{
+    color: rgba(0, 155, 255, 1);
+}
+
+.ul__telemetry{
+
+}
+
+.item__telemetry{
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(43, 46, 62, 1);
+    line-height: 2;
+}
