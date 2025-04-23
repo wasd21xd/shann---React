@@ -1,7 +1,7 @@
 import './header.css'
 import Mask_group from '../../img/header/Mask_group.svg'
 
-function Header() {
+function Header({onOpenModal}) {
     return (
         <div className="Header">
             <header className="header">
@@ -10,7 +10,7 @@ function Header() {
                         <img className="logo" src={Mask_group} alt="логотип" />
                         <div className="info">
                             <p className="number__header">8 800 555 80 80</p>
-                            <button type="submit" className="btn__call">Заказать звонок</button>
+                            <button type="submit" className="btn__call" onClick={onOpenModal}>Заказать звонок</button>
                         </div>
                     </div>
                 </div>

@@ -36,7 +36,6 @@
     font-weight: 700;
     font-size: 68px;
     color: rgba(43, 46, 62, 1);
-
 }
 
 .span__text__telemetry{
@@ -53,4 +52,8 @@
     font-size: 24px;
     color: rgba(43, 46, 62, 1);
     line-height: 2;
+}
+
+.item__telemetry::marker{
+    color: #009BFF;
 }
