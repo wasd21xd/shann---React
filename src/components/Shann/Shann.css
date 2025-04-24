@@ -2,6 +2,8 @@
     display: flex;
     padding-top: 120px;
     padding-left: 150px;
+    padding-bottom: 155px;
+    align-items: center;
 }
 
 .text__Shann {
@@ -9,6 +11,7 @@
     flex-direction: column;
     width: 804px;
     z-index: 1;
+    
 }
 
 .callback__btn {
@@ -92,6 +95,7 @@
 .tractor {
     position: relative;
     right: 300px;
+    top: 130px;
     z-index: -2;
     bottom: 20px;
 }

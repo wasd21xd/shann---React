@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react";
 import Header from "./components/Header/header";
 import Shann from "./components/Shann/shann";
 import Evolution from "./components/evolution/Evolution";
@@ -6,6 +7,7 @@ import Engine from "./components/engine/Engine";
 import Telemetry from "./components/telemetry/Telemetry";
 import TractorComponent from "./components/tractora/Tractorcomponent";
 import ModalForm from "./components/modalticket/modalticket";
+import Slider from './components/slider/Slider'
 import {useState} from "react";
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <Telemetry/>
         <TractorComponent />
         <ModalForm isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
+          <Slider />
       </div>
   );
 }
