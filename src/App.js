@@ -8,6 +8,7 @@ import Telemetry from "./components/telemetry/Telemetry";
 import TractorComponent from "./components/tractora/Tractorcomponent";
 import ModalForm from "./components/modalticket/modalticket";
 import Slider from './components/slider/Slider'
+import VideoBlock from "./components/videoBlock/VideoBlock";
 import {useState} from "react";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <TractorComponent />
         <ModalForm isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
           <Slider />
+          <VideoBlock />
       </div>
   );
 }
