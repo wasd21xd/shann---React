@@ -1,4 +1,4 @@
-import image_146 from '../../img/Shann/tracor_146.png'
+import image_146 from '../../img/Shann/image146 копия1.png'
 import tractor from '../../img/Shann/tractor.svg'
 
 

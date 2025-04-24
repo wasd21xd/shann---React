@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Header onOpenModal={() => setModalOpen(true)} />
         <Shann onOpenModal={() => setModalOpen(true)} />
-        <Evolution/>
+        <Evolution />
         <Engine/>
         <Telemetry/>
         <TractorComponent />
