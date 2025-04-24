@@ -1,40 +1,59 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     background-color: #f2f4fb;
     color: #333;
 }
 
-.catalog {
-    padding: 40px;
-    max-width: 1200px;
+.catalog__container {
+    padding-top: 140px;
     margin: 0 auto;
 }
 
-.catalog h1 {
-    font-size: 36px;
+.catalog__container h1 {
+    font-size: 68px;
+    font-weight: 700;
     text-align: center;
-    font-weight: 800;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    font-family: Gilroy, sans-serif;
+    letter-spacing: -2%;
+    color: #2B2E3E;
+
+}
+
+.span__h1{
+    font-size: 68px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Gilroy, sans-serif;
+    letter-spacing: -2%;
+    color:#009BFF;
+;
 }
 
 .grid {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns:1fr 1fr 1fr 1fr;
-
     gap: 24px;
+    text-align: center;
+    align-items: center;
 }
 
 /* Карточка */
 .card {
+    width: 345px;
+    height: 440px;
     background-color: white;
-    border-radius: 16px;
+    border-radius: 15px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
+    gap: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+
 }
 
 .card:hover {
@@ -48,16 +67,28 @@ body {
     margin-bottom: 15px;
 }
 
-.card h3 {
+.img__card__tractor{
+    width: 285px;
+}
+
+.highlight-text {
+    color: #2B2E3E;
+    font-weight: 600;
+}
+
+.name__card {
+    font-family: Gilroy, sans-serif;
+    font-weight: 800;
     margin: 10px 0;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .card p {
     font-size: 14px;
     margin: 4px 0;
-    color: #555;
+    font-family: Gilroy, sans-serif;
+    color: #2B2E3E8C;
+;
 }
 
 .card button {
@@ -184,4 +215,55 @@ body {
     border: none;
     font-size: 24px;
     cursor: pointer;
+}
+
+    .grid-placeholder {
+        grid-column: span 3;
+        width: 1075px;
+        height: 440px;
+        border: 1px dashed #2a7ddf;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#f2f4fb;
+        font-size: 18px;
+        font-weight: 600;
+        color: #2B2E3E;
+        margin: 0 auto;
+        gap: 150px;
+    }
+
+.right__catalog{
+    width: 414px;
+}
+
+.logo__catalog{
+    color: #2B2E3E;
+    font-family: Gilroy, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.btn__catalog{
+    width: 414px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #009BFF;
+    color: white;
+    transition: background-color 0.5s ease-in-out, transform 0.4s ease, box-shadow 0.5s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn__catalog:hover {
+    background-color: rgba(0, 102, 255, 0.85);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn__catalog:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
