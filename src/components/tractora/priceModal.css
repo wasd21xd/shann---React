@@ -66,6 +66,7 @@
     flex-direction: column;
     gap: 15px;
     margin-top: 20px;
+
 }
 
 .price__form input {
@@ -77,6 +78,11 @@
     font-weight: 600;
     color: #2B2E3E;
 
+}
+
+
+.price__form input::placeholder{
+    color: black;
 }
 
 .btn__priceModal {

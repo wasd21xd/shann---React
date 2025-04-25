@@ -5,18 +5,18 @@ import slider2 from './img__slider/slider3.png'
 import slider3 from './img__slider/slider2.png'
 
 const images = [
-    slider1,
-    slider2,
     slider3,
-    slider1,
     slider2,
-    slider3,
     slider1,
-    slider2,
     slider3,
+    slider2,
     slider1,
-    slider2,
     slider3,
+    slider2,
+    slider1,
+    slider3,
+    slider2,
+    slider1,
 ];
 
 const Slider = () => {

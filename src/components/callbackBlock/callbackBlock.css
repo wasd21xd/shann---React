@@ -1,0 +1,173 @@
+.call__container{
+    width: 1840px;
+    height: 680px;
+    background-color: #009BFF;
+    border-radius: 60px;
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.left__side{
+    display: flex;
+    flex-direction: column;
+    width: 710px;
+    height: 515px;
+}
+
+.logo__call{
+    display: flex;
+    flex-direction: column;
+}
+
+.h2__call{
+font-family: Gilroy, sans-serif;
+    font-weight: 900;
+    font-size: 68px;
+    letter-spacing: -2%;
+    color: white;
+    margin-bottom: -10px
+}
+
+.span__call1{
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    letter-spacing: -2%;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.text__call{
+    font-family: Gilroy, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+color: white;
+}
+
+.name__number{
+    display: flex;
+    gap: 20px;
+}
+
+.input__name{
+    width: 345px;
+    height: 60px;
+    background: rgba(96, 190, 253, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-left: 25px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 1);
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.comment{
+    padding-top: 20px;
+}
+
+.commet{
+    width: 684px;
+    height: 120px;
+    background: rgba(96, 190, 253, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-left: 25px;
+    padding-top: 20px;
+
+    color: rgba(255, 255, 255, 1);
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.zayavka{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.btn__zayavka{
+    width: 345px;
+    height: 55px;
+    background-color: rgba(96, 190, 253, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.privacy__call{
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.a__privacy__call{
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.number__call{
+    font-family: Gilroy, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.img__call{
+    position: relative;
+    bottom: 20px;
+}
+
+.btn__zayavka.fly {
+    animation: flyButton 0.5s ease forwards;
+}
+
+@keyframes flyButton {
+    0% {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05) translateY(-30px);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(0.8) translateY(-100px);
+        opacity: 0;
+    }
+}
+
+.btn__zayavka {
+    cursor: pointer; /* 👈 добавляем указатель */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn__zayavka:hover {
+    transform: translateY(-3px); /* чуть приподнимаем */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn__zayavka:active {
+    transform: translateY(1px) scale(0.98); /* лёгкое вдавливание */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

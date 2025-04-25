@@ -9,6 +9,8 @@ import TractorComponent from "./components/tractora/Tractorcomponent";
 import ModalForm from "./components/modalticket/modalticket";
 import Slider from './components/slider/Slider'
 import VideoBlock from "./components/videoBlock/VideoBlock";
+import CallbackBlock from  './components/callbackBlock/CallbackBlcok'
+import Footer from './components/footer/Footer'
 import {useState} from "react";
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <ModalForm isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
           <Slider />
           <VideoBlock />
+          <CallbackBlock />
+          <Footer />
       </div>
   );
 }
